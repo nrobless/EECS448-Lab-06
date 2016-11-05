@@ -1,0 +1,10 @@
+*** BUGS FOUND ***
+
+1.  Bug: removeFront and removeBack are failing to remove elements on non-empty lists
+    Potential causes: Wrong pointer operations, walking down the list improperly
+
+2.  Bug: isEmpty returns true on non-empty lists
+    Potential causes: Forgot to implement case where list size is not 0
+
+3.  Bug: addBack adds in the wrong order
+    Potential causes: addBack implemented as an addFront
